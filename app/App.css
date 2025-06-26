@@ -1,0 +1,36 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+div {
+  background-color: lightblue;
+  margin: auto;
+}
+
+.titlePage {
+  padding: 8px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1c86ee;
+}
